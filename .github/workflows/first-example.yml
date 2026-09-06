@@ -12,5 +12,5 @@ jobs:
         - name: List files
           run: ls
 
-        - name: Read files
-          run: cat README.md
+        - name: Deployed app
+          run: echo "App deployed successfully"
