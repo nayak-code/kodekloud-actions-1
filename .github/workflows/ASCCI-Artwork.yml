@@ -19,4 +19,6 @@ jobs:
               run: grep -i "dragon" dragon.txt
 
             - name: list repos and files
-              run: ls -ltra
+              run: |
+                 ls -ltra
+                 cat dragon.txt
