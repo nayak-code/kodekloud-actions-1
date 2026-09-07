@@ -30,8 +30,8 @@ jobs:
     deploy_job3:
         runs-on: ubuntu-latest
         steps: 
-            - name: Read Readme.md file
-              run: cat README.md
+            - name: Read random data
+              run: date
 
             - name: Deploy app
               run: echo "Deploying app...""
