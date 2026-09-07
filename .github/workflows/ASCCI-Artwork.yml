@@ -9,8 +9,6 @@ jobs:
             - name: checkout repo
               uses: actions/checkout@v7
 
-            - name: list repos and files
-              run: cat dragon.txt
 
             - name: Executing shell script
               run: |
