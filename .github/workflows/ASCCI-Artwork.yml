@@ -25,7 +25,7 @@ jobs:
         needs: ascii_job
         concurrency:
           group: production-deployment
-          cancel-in-progress: true
+          cancel-in-progress: false
         runs-on: ubuntu-latest
         steps:
             - name: List all files & directories
